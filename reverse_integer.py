@@ -30,10 +30,13 @@ class Solution:
         # otherwise element is 0
         else:
             value = 0
-
+        # Convert element to a string, and then revert the string, and convert the string to 
+        # integer again
         result = (int(repr(x)[::-1])) * value
 
+        # Check if result is the max 32-bit 
         if result < 2**31 and result > -2**31:
             return result
+        # If result overflow 32-bit return 0
         else:
             return 0
