@@ -40,9 +40,8 @@ class Solution:
         length = len(s)
         new_array = []
         cycle = 2*numRows - 2
-        
         row_n = 0 
-
+        # loop through every row
         for i in range(numRows):    
             for j in range(i, length, cycle):
                 new_array.append(s[j])
