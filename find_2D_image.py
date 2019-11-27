@@ -12,7 +12,7 @@ image1 = [
   [1, 1, 1, 0, 0, 0, 1],
   [1, 1, 1, 1, 1, 1, 1],
 ]
-
+i
 Sample output variations (only one is necessary):
 
 findRectangle(image1) =>
