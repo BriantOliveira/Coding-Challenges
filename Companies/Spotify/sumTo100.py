@@ -15,9 +15,9 @@ class Solution:
         # Loop through the list of numbers
         for i in range(len(nums)):
             value = nums[i]
-            # subtract the target value from current index. 9 - 2 = 7
+            # subtract the target value from current index. 
             result = target - value
-            # Check if result "7" exist in the dict
+            # Check if result exist in the dict
             if result in dict:
                 # If the result value exist then you return the index which in this
                 # case if the value in the dict and the current index
